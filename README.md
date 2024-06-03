@@ -260,12 +260,15 @@ zwrotnych),
     "returnQR": true
   }
 ```
-///12//////////////
+///12 paragon dwupozycyjny z narzutem do drugiej pozycji i storno tej pozycji(///////////////////////////////////////////
+
+
 ```
 {
   "commandType": 16
 }
 ```
+
 ```
 {
   "commandType": 22,
@@ -275,9 +278,9 @@ zwrotnych),
       "canceled": false,
       "count": 1,
       "name": "Produkt1",
-      "price": 100,
+      "price": 50,
       "ptu": "A",
-      "unit": "szt"
+      "unit": ""
     },
     "type": 1
   },
@@ -293,12 +296,18 @@ zwrotnych),
   "commandInput": {
     "item": {
       "advanceRemain": 0,
-      "canceled": true, 
+      "canceled": false,
       "count": 1,
-      "name": "Produkt1",
-      "price": 100,
+      "name": "Produkt2",
+      "price": 70,
       "ptu": "A",
-      "unit": "szt"
+      "unit": "",
+      "discount": {
+        "name": "Narzut do pozycji",
+        "type": 1,  
+        "unit": 0, 
+        "value": 10 
+      }
     },
     "type": 1
   },
@@ -306,19 +315,44 @@ zwrotnych),
   "returnModel": false,
   "returnPDF": false
 }
+
+```
+```
+{
+  "commandType": 22,
+  "commandInput": {
+    "item": {
+      "advanceRemain": 0,
+      "canceled": true, 
+      "count": 1,
+      "name": "Produkt2",
+      "price": 70,
+      "ptu": "A",
+      "unit": "",
+      "discount": {
+        "name": "Narzut do pozycji",
+        "type": 1,  
+        "unit": 0,  
+        "value": 10 
+      }
+    },
+    "type": 1
+  },
+  "print": true,
+  "returnModel": false,
+  "returnPDF": false
+}
+
 ```
 
 ```
 {
   "commandType": 26,
   "commandInput": {
-    "canceled": true 
+    "canceled": false
   },
   "print": true,
   "returnPDF": false,
   "returnQR": true
 }
 ```
-
-
-
