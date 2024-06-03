@@ -102,3 +102,9 @@ zwrotnych),
 ```
 { "commandType": 11, "commandInput": { "print": true, "returnPDF": false, "sales_system_name": "Nazwa programu POS", "sales_system_version": "Wersja programu POS" } }
 ```
+
+//paragon z maksymalną dopuszczalną wartością jednej pozycji sprzedaży, 
+
+```
+[ { "commandType": 16 }, { "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1, "name": "ProduktMaxValue", "price": 999999.99, "ptu": "A", "unit": "szt" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }, { "commandType": 24, "commandInput": { "currency_converter": 1, "currency": "PLN", "is_from_registration_currency_conversion": false, "is_informative_conversion": true, "name": "paymentName", "payment_type": 1, "value": 999999.99, "payment_without_terminal": true } }, { "commandType": 26, "commandInput": { "canceled": false }, "print": true, "returnPDF": false, "returnQR": true } ]
+```
