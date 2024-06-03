@@ -293,7 +293,7 @@ zwrotnych),
   "commandInput": {
     "item": {
       "advanceRemain": 0,
-      "canceled": true, // Сторно позиции
+      "canceled": true, 
       "count": 1,
       "name": "Produkt1",
       "price": 100,
@@ -312,7 +312,7 @@ zwrotnych),
 {
   "commandType": 26,
   "commandInput": {
-    "canceled": true // Аннулирование чека
+    "canceled": true 
   },
   "print": true,
   "returnPDF": false,
