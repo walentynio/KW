@@ -35,7 +35,7 @@
 //paragon jednopozycyjny z narzutem do pozycji i z resztą,
 
 ```
-{ "commandType": 30, "commandInput": { "1": { "commandType": 16 }, "2": { "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1, "name": "Item 1", "price": 100, "ptu": "A", "unit": "" }, "type": 1 }, "commandType": 22, "print": true, "returnModel": false, "returnPDF": false }, "3": { "commandInput": { "surcharge": { "amount": 20, "type": "percentage" } }, "commandType": 23, "print": true, "returnModel": false, "returnPDF": false }, "4": { "commandInput": { "currency_converter": 2.54, "currency": "EUR", "is_from_registration_currency_conversion": false, "is_informative_conversion": true, "name": "paymentName", "payment_type": 1, "value": 150, "payment_without_terminal": true, "change": 30 }, "commandType": 24 }, "5": { "commandType": 26 } } }
+{ "commandType": 30, "commandInput": { "1": { "commandType": 16 }, "2": { "commandInput": { "item": { "advanceRemain": 0.0, "canceled": false, "count": 1.0, "name": "Item 1", "price": 100.0, "ptu": "A", "unit": "", "discount": { "name": "NARZUT_10%", "type": 1, "unit": 0, "value": 10.0 } }, "type": 1 }, "commandType": 22, "print": true, "returnModel": false, "returnPDF": false }, "3": { "commandInput": { "currency_converter": 2.54, "currency": "EUR", "is_from_registration_currency_conversion": false, "is_informative_conversion": true, "name": "paymentName", "payment_type": 1, "value": 150.0, "payment_without_terminal": true, "change": 40.0 // Сдача }, "commandType": 24 }, "4": { "commandType": 26 } } }
 ```
 
 //paragon jednopozycyjny z opustem do pozycji i z resztą,
