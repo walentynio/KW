@@ -260,5 +260,65 @@ zwrotnych),
     "returnQR": true
   }
 ```
+///12//////////////
+```
+{
+  "commandType": 16
+}
+```
+```
+{
+  "commandType": 22,
+  "commandInput": {
+    "item": {
+      "advanceRemain": 0,
+      "canceled": false,
+      "count": 1,
+      "name": "Produkt1",
+      "price": 100,
+      "ptu": "A",
+      "unit": "szt"
+    },
+    "type": 1
+  },
+  "print": true,
+  "returnModel": false,
+  "returnPDF": false
+}
+```
+
+```
+{
+  "commandType": 22,
+  "commandInput": {
+    "item": {
+      "advanceRemain": 0,
+      "canceled": true, // Сторно позиции
+      "count": 1,
+      "name": "Produkt1",
+      "price": 100,
+      "ptu": "A",
+      "unit": "szt"
+    },
+    "type": 1
+  },
+  "print": true,
+  "returnModel": false,
+  "returnPDF": false
+}
+```
+
+```
+{
+  "commandType": 26,
+  "commandInput": {
+    "canceled": true // Аннулирование чека
+  },
+  "print": true,
+  "returnPDF": false,
+  "returnQR": true
+}
+```
+
 
 
