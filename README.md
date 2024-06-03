@@ -112,5 +112,5 @@ zwrotnych),
 //report dobowy
 
 ```
-{ "commandType": 30, "commandInput": { "1": { "commandType": 11, "commandInput": { "print": true, "returnPDF": false, "sales_system_name": "Nazwa programu POS", "sales_system_version": "Wersja programu POS" } } } }
+{ "commandType": 11, "commandInput": { "print": true, "returnPDF": false, "sales_system_name": "Nazwa programu POS", "sales_system_version": "Wersja programu POS" } }
 ```
