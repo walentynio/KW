@@ -356,3 +356,24 @@ zwrotnych),
   "returnQR": true
 }
 ```
+
+```
+ {
+      "commandInput": {
+        "item": {
+          "advanceRemain": 0,
+          "canceled": false,
+          "count": 1,
+          "name": "AB1",
+          "price": 77,
+          "ptu": "C",
+          "unit": ""
+        },
+        "type": 1
+      },
+      "commandType": 22,
+      "print": true,
+      "returnModel": false,
+      "returnPDF": false
+    }
+```
