@@ -60,17 +60,30 @@
 { "commandType": 30, "commandInput": { "1": {"commandType": 16}, "2": { "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1, "name": "Produkt1", "price": 50, "ptu": "A", "unit": "", "discount": { "name": "Opust do pozycji", "type": 0, "unit": 0, "value": 10 } }, "type": 1 }, "commandType": 22, "print": true, "returnModel": false, "returnPDF": false }, "3": { "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1, "name": "Produkt2", "price": 70, "ptu": "A", "unit": "", "discount": { "name": "Narzut do pozycji", "type": 1, "unit": 0, "value": 10 } }, "type": 1 }, "commandType": 22, "print": true, "returnModel": false, "returnPDF": false }, "4": { "commandInput": { "name": "Opust do podsumy", "discount_type": 0, "discount_unit": 0, "value": 5 }, "commandType": 25 }, "5": { "commandInput": { "name": "Narzut do podsumy", "discount_type": 1, "discount_unit": 0, "value": 3 }, "commandType": 25 }, "6": { "commandInput": { "currency_converter": 2.54, "currency": "EUR", "is_from_registration_currency_conversion": false, "is_informative_conversion": true, "name": "paymentName", "payment_type": 1, "value": 126.18, "payment_without_terminal": true }, "commandType": 24 }, "7": {"commandType": 26} } }
 ```
 
-11) //paragon dwupozycyjny z narzutem do drugiej pozycji i storno tej pozycji,
+11) ///paragon dwupozycyjny z narzutem do drugiej pozycji i storno tej pozycji (wprowadzać komenda po komendzie
 
 ```
-{ "commandType": 30, "commandInput": { "1": {"commandType": 16}, "2": { "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1, "name": "Produkt1", "price": 50, "ptu": "A", "unit": "" }, "type": 1 }, "commandType": 22, "print": true, "returnModel": false, "returnPDF": false }, "3": { "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1, "name": "Produkt2", "price": 70, "ptu": "A", "unit": "", "discount": { "name": "Narzut do pozycji", "type": 1, "unit": 0, "value": 10 } }, "type": 1 }, "commandType": 22, "print": true, "returnModel": false, "returnPDF": false }, "4": { "commandInput": { "item": { "advanceRemain": 0, "canceled": true, "count": 1, "name": "Produkt2", "price": 70, "ptu": "A", "unit": "" }, "type": 1 }, "commandType": 22, "print": true, "returnModel": false, "returnPDF": false }, "5": { "commandInput": { "currency_converter": 2.54, "currency": "EUR", "is_from_registration_currency_conversion": false, "is_informative_conversion": true, "name": "paymentName", "payment_type": 1, "value": 50, "payment_without_terminal": true }, "commandType": 24 }, "6": {"commandType": 26} } }
+  {"commandType": 16}
 ```
 
-12) ///paragon dwupozycyjny z narzutem do drugiej pozycji i storno tej pozycji(Attemp 2)
+``` 
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1, "name": "Produkt1", "price": 50, "ptu": "A", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+``` 
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1, "name": "Produkt2", "price": 70, "ptu": "A", "unit": "", "discount": { "name": "Narzut do pozycji", "type": 1, "unit": 0, "value": 10 } }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+ ```
 
+``` 
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": true, "count": 1, "name": "Produkt2", "price": 70, "ptu": "A", "unit": "", "discount": { "name": "Narzut do pozycji", "type": 1, "unit": 0, "value": 10 } }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
 ```
-{ "commandType": 30, "commandInput": { "1": {"commandType": 16}, "2": { "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1, "name": "Produkt1", "price": 50, "ptu": "A", "unit": "" }, "type": 1 }, "commandType": 22, "print": true, "returnModel": false, "returnPDF": false }, "3": { "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1, "name": "Produkt2", "price": 70, "ptu": "A", "unit": "", "discount": { "name": "Narzut do pozycji", "type": 1, "unit": 0, "value": 10 } }, "type": 1 }, "commandType": 22, "print": true, "returnModel": false, "returnPDF": false }, "4": { "commandInput": { "item": { "advanceRemain": 0, "canceled": true, "count": 1, "name": "Produkt2", "price": 70, "ptu": "A", "unit": "" }, "type": 1 }, "commandType": 22, "print": true, "returnModel": false, "returnPDF": false }, "5": { "commandInput": { "currency_converter": 2.54, "currency": "EUR", "is_from_registration_currency_conversion": false, "is_informative_conversion": true, "name": "paymentName", "payment_type": 1, "value": 50, "payment_without_terminal": true }, "commandType": 24 }, "6": { "commandInput": { "canceled": false }, "commandType": 26, "print": true, "returnPDF": false, "returnQR": true } } }
 ```
+{ "commandType": 24, "commandInput": { "name": "paymentName", "payment_type": 1, "value": 50, "payment_without_terminal": true } }
+```
+```
+{ "commandType": 26, "commandInput": { "canceled": false }, "print": true, "returnPDF": false, "returnQR": true }
+```
+
+
 13) //paragon dwupozycyjny z opustem do drugiej pozycji i storno tej pozycji, ten sammy problem
 
 ```
@@ -357,23 +370,4 @@ zwrotnych),
 }
 ```
 
-```
- {
-      "commandInput": {
-        "item": {
-          "advanceRemain": 0,
-          "canceled": false,
-          "count": 1,
-          "name": "AB1",
-          "price": 77,
-          "ptu": "C",
-          "unit": ""
-        },
-        "type": 1
-      },
-      "commandType": 22,
-      "print": true,
-      "returnModel": false,
-      "returnPDF": false
-    }
-```
+
