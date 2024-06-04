@@ -401,5 +401,5 @@ zwrotnych),
 
 ///////////////////////////////////////////
 ```
-{ "commandInput": { "A": { "type": 0, "value": 23 }, "B": { "type": 0, "value": 8 }, "C": { "type": 0, "value": 5 }, "D": { "type": 0, "value": 0 }, "E": { "type": 1, "value": 0 }, "F": { "type": 2, "value": 0 }, "G": { "type": 2, "value": 0 } }, "commandType": 3 }
+{ "commandInput": { "A": { "type": 0, "value": 23 }, "B": { "type": 0, "value": 8 }, "C": { "type": 0, "value": 5 }, "D": { "type": 0, "value": 2 }, "E": { "type": 0, "value": 3 }, "F": { "type": 0, "value": 4 }, "G": { "type": 0, "value": 6 } }, "commandType": 3 }
 ```
