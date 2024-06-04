@@ -395,6 +395,8 @@ zwrotnych),
 { "commandType": 32, "commandInput": { "settings": [ { "name": "ptu1", "value": "A", "rate": 23.00 }, { "name": "ptu2", "value": "B", "rate": 8.00 }, { "name": "ptu3", "value": "C", "rate": 5.00 }, { "name": "ptu4", "value": "D", "rate": 0.00 }, { "name": "ptu5", "value": "E", "rate": 12.00 }, { "name": "ptu6", "value": "F", "rate": 18.00 }, { "name": "ptu7", "value": "G", "rate": 22.00 } ] } }
 ```
 /////////////////////////////////////////////////////////////////
+```
 { "commandType": 4, "commandInput": { "sales_system_name": "salesSystemNameTest", "sales_system_version": "salesSystemVersionTest" } }
+```
 
 
