@@ -4,24 +4,24 @@
 {"commandType":1,"commandInput":{"sales_system_name":"salesSystemNameTest","sales_system_version":"salesSystemVersionTest"}}
 ```
 
-//zaprogramować wszystkie stawki PTU(jezeli stawki PTU są ustawione to zmian nie będzie)
+1//zaprogramować wszystkie stawki PTU(jezeli stawki PTU są ustawione to zmian nie będzie)
 
 ```
 { "commandInput": { "A": { "type": 0, "value": 23 }, "B": { "type": 0, "value": 8 }, "C": { "type": 0, "value": 5 }, "D": { "type": 0, "value": 0 }, "E": { "type": 1, "value": 0 }, "F": { "type": 2, "value": 0 }, "G": { "type": 2, "value": 0 } }, "commandType": 3 }
 ```
 
-//paragon z towarami we wszystkich stawkach PTU,
+2//paragon z towarami we wszystkich stawkach PTU,
 
 ```
 {"commandType":30,"commandInput":{"1":{"commandType":16},"2":{"commandInput":{"item":{"advanceRemain":0,"canceled":false,"count":1,"name":"AB1","price":77,"ptu":"A","unit":""},"type":1},"commandType":22,"print":true,"returnModel":false,"returnPDF":false},"3":{"commandInput":{"item":{"advanceRemain":0,"canceled":false,"count":1,"name":"AB1","price":777,"ptu":"A","unit":""},"type":1},"commandType":22,"print":true,"returnModel":false,"returnPDF":false},"4":{"commandInput":{"item":{"advanceRemain":0,"canceled":false,"count":1,"name":"AB13","price":772,"ptu":"A","unit":""},"type":1},"commandType":22,"print":true,"returnModel":false,"returnPDF":false},"5":{"commandInput":{"currency_converter":2.54,"currency":"EUR","is_from_registration_currency_conversion":false,"is_informative_conversion":true,"name":"paymentName","payment_type":1,"value":222222.22,"payment_without_terminal":true},"commandType":24},"6":{"commandType":26}}}
 ```
-//zaprogramować cztery standardowe stawki PTU,
+3//zaprogramować cztery standardowe stawki PTU,
 
 ```
 { "commandType": 32, "commandInput": { "settings": [ { "name": "ptu1", "value": "A", "rate": 23.00 }, { "name": "ptu2", "value": "B", "rate": 8.00 }, { "name": "ptu3", "value": "C", "rate": 5.00 }, { "name": "ptu4", "value": "D", "rate": 0.00 } ] } }
 ```
 
-//paragon z towarami w standardowych stawkach PTU, nie zrobiłem
+4//paragon z towarami w standardowych stawkach PTU,
 
 ```
 { "commandType": 16 }
@@ -47,7 +47,7 @@
 //paragon dwupozycyjny ze storno pierwszej pozycji,
 
 ```
-{ "commandType": 30, "commandInput": { "1": { "commandType": 16 }, "2": { "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1, "name": "Item 1", "price": 100, "ptu": "A", "unit": "" }, "type": 1 }, "commandType": 22, "print": true, "returnModel": false, "returnPDF": false }, "3": { "commandInput": { "item": { "advanceRemain": 0, "canceled": true, "count": 1, "name": "Item 1", "price": -100, "ptu": "A", "unit": "" }, "type": 1 }, "commandType": 22, "print": true, "returnModel": false, "returnPDF": false }, "4": { "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1, "name": "Item 2", "price": 200, "ptu": "A", "unit": "" }, "type": 1 }, "commandType": 22, "print": true, "returnModel": false, "returnPDF": false }, "5": { "commandInput": { "currency_converter": 2.54, "currency": "EUR", "is_from_registration_currency_conversion": false, "is_informative_conversion": true, "name": "paymentName", "payment_type": 1, "value": 200, "payment_without_terminal": true }, "commandType": 24 }, "6": { "commandType": 26 } } }
+{ "commandType": 30, "commandInput": { "1": { "commandType": 16 }, "2": { "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1, "name": "Produkt1", "price": 50, "ptu": "A", "unit": "szt" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }, "3": { "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1, "name": "Produkt2", "price": 100, "ptu": "A", "unit": "szt" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }, "4": { "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": true, "count": 1, "name": "Produkt1", "price": 0, "ptu": "A", "unit": "szt" }, "type": 2 }, "print": true, "returnModel": false, "returnPDF": false }, "5": { "commandType": 24, "commandInput": { "name": "paymentName", "payment_type": 1, "value": 100, "payment_without_terminal": true } }, "6": { "commandType": 26, "commandInput": { "canceled": false }, "print": true, "returnPDF": false, "returnQR": true } } }
 ```
 
 //paragon jednopozycyjny z narzutem do pozycji i z resztą,
