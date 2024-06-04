@@ -91,7 +91,25 @@
 //paragon z kombinacją narzutów i opustów, do pozycji i do podsumy,
 
 ```
-{ "commandType": 30, "commandInput": { "1": { "commandType": 16 }, "2": { "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1, "name": "Produkt1", "price": 50, "ptu": "A", "unit": "", "discount": { "name": "Opust do pozycji", "type": 0, "unit": 1, "value": 5 } }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }, "3": { "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1, "name": "Produkt2", "price": 70, "ptu": "A", "unit": "", "discount": { "name": "Narzut do pozycji", "type": 1, "unit": 1, "value": 7 } }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }, "4": { "commandType": 25, "commandInput": { "name": "Narzut do podsumy", "discount_type": 1, "discount_unit": 1, "value": 3 } }, "5": { "commandType": 25, "commandInput": { "name": "Opust do podsumy", "discount_type": 0, "discount_unit": 1, "value": 5 } }, "6": { "commandType": 24, "commandInput": { "name": "paymentName", "payment_type": 1, "value": 120, "payment_without_terminal": true } }, "7": { "commandType": 26, "commandInput": { "canceled": false }, "print": true, "returnPDF": false, "returnQR": true } } }
+{ "commandType": 16 }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1, "name": "Produkt1", "price": 50, "ptu": "A", "unit": "", "discount": { "name": "Opust do pozycji", "type": 0, "unit": 1, "value": 5 } }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1, "name": "Produkt2", "price": 70, "ptu": "A", "unit": "", "discount": { "name": "Narzut do pozycji", "type": 1, "unit": 1, "value": 7 } }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+```
+{ "commandType": 25, "commandInput": { "name": "Narzut do podsumy", "discount_type": 1, "discount_unit": 1, "value": 3 } }
+```
+```
+{ "commandType": 25, "commandInput": { "name": "Opust do podsumy", "discount_type": 0, "discount_unit": 1, "value": 5 } }
+```
+```
+{ "commandType": 24, "commandInput": { "name": "paymentName", "payment_type": 1, "value": 115, "payment_without_terminal": true } }
+```
+```
+{ "commandType": 26, "commandInput": { "canceled": false }, "print": true, "returnPDF": false, "returnQR": true }
 ```
 
 ///paragon dwupozycyjny z narzutem do drugiej pozycji i storno tej pozycji (wprowadzać komenda po komendzie)
