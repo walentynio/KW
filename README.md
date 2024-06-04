@@ -219,7 +219,7 @@
 16//paragon „zerowy” (towar i storno towaru, wydanie i zwrot opakowań
 zwrotnych),
 
-```
+
 ```
   {"commandType": 16}
 ```
@@ -331,7 +331,7 @@ zwrotnych),
     "returnQR": true
   }
 ```
-```
+
 17//raport dobowy (nie do analizy, chodzi o wyzerowanie totalizerów dobowych),
 
 ```
@@ -399,4 +399,5 @@ zwrotnych),
 { "commandType": 4, "commandInput": { "sales_system_name": "salesSystemNameTest", "sales_system_version": "salesSystemVersionTest" } }
 ```
 
-
+///////////////////////////////////////////
+{ "commandInput": { "A": { "type": 0, "value": 23 }, "B": { "type": 0, "value": 8 }, "C": { "type": 0, "value": 5 }, "D": { "type": 0, "value": 0 }, "E": { "type": 1, "value": 0 }, "F": { "type": 2, "value": 0 }, "G": { "type": 2, "value": 0 } }, "commandType": 3 }
