@@ -420,6 +420,20 @@ zwrotnych),
 ```
 { "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": true, "count": 1, "name": "TOWAR_1_1", "price": 0.01, "ptu": "A", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
 ```
+///dajemy opokowanie zwrotne 
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 2, "name": "SŁOIK", "price": 1.25, "ptu": "A", "unit": "szt" }, "type": 2 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": true, "count": 1, "name": "Opakowanie zwrotne", "price": 1.34, "ptu": "A", "unit": "szt" }, "type": 2 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+
+///final
+```
+{ "commandType": 24, "commandInput": { "name": "paymentName", "payment_type": 1, "value": 100, "payment_without_terminal": true } }
+```
+
 
 
 /////////////////////////////////////////////////AKTYWACJA STAWEK PTU///////////////////////////////////////////////////
