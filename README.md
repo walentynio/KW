@@ -397,31 +397,29 @@ zwrotnych),
 { "commandType": 16 }
 ```
 ```
-{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 2, "name": "TOWAR_1_1", "price": 0,01, "ptu": "A", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 2, "name": "TOWAR_1_1", "price": 0.01, "ptu": "A", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
 ```
 ```
-{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 3, "name": "TOWAR_1_2", "price": 0,01, "ptu": "B", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 3, "name": "TOWAR_1_2", "price": 0.01, "ptu": "B", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
 ```
 ```
-{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 4, "name": "TOWAR_1_3", "price": 0,01, "ptu": "C", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 4, "name": "TOWAR_1_3", "price": 0.01, "ptu": "C", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
 ```
 ```
-{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 5, "name": "TOWAR_1_4", "price": 0,01, "ptu": "D", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 5, "name": "TOWAR_1_4", "price": 0.01, "ptu": "D", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
 ```
 ```
-{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1, "name": "TOWAR_1_5", "price": 0,01, "ptu": "E", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1, "name": "TOWAR_1_5", "price": 0.01, "ptu": "E", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
 ```
 ```
-{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1, "name": "TOWAR_1_6", "price": 0,01, "ptu": "F", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1, "name": "TOWAR_1_6", "price": 0.01, "ptu": "F", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
 ```
 ```
-{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 10, "name": "TOWAR_1_7", "price": 0,01, "ptu": "G", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 10, "name": "TOWAR_1_7", "price": 0.01, "ptu": "G", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
 ```
 ```
-{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": true, "count": 1, "name": "TOWAR_1_1", "price": 0,01, "ptu": "A", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
-
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": true, "count": 1, "name": "TOWAR_1_1", "price": 0.01, "ptu": "A", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
 ```
-
 
 
 /////////////////////////////////////////////////AKTYWACJA STAWEK PTU///////////////////////////////////////////////////
