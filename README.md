@@ -390,6 +390,40 @@ zwrotnych),
 ```
 { "commandType": 30, "commandInput": { "1": { "commandType": 16 }, "2": { "commandType": 22, "commandInput": { "item": { "name": "TOWAR_1_1", "count": 2, "price": 0.01, "ptu": "A" }, "type": 1 }, "print": true }, "3": { "commandType": 22, "commandInput": { "item": { "name": "TOWAR_1_2", "count": 3, "price": 0.01, "ptu": "B" }, "type": 1 }, "print": true }, "4": { "commandType": 22, "commandInput": { "item": { "name": "TOWAR_1_3", "count": 4, "price": 0.01, "ptu": "C" }, "type": 1 }, "print": true }, "5": { "commandType": 22, "commandInput": { "item": { "name": "TOWAR_1_4", "count": 5, "price": 0.01, "ptu": "D" }, "type": 1 }, "print": true }, "6": { "commandType": 22, "commandInput": { "item": { "name": "TOWAR_1_5", "count": 1, "price": 0.01, "ptu": "E" }, "type": 1 }, "print": true }, "7": { "commandType": 22, "commandInput": { "item": { "name": "TOWAR_1_6", "count": 1, "price": 0.01, "ptu": "F" }, "type": 1 }, "print": true }, "8": { "commandType": 22, "commandInput": { "item": { "name": "TOWAR_1_7", "count": 10, "price": 0.01, "ptu": "G" }, "type": 1 }, "print": true }, "9": { "commandType": 22, "commandInput": { "item": { "name": "STORNO TOWAR_1_1", "count": -2, "price": 0.01, "ptu": "A" }, "type": 2 }, "print": true }, "10": { "commandType": 22, "commandInput": { "item": { "name": "STORNO TOWAR_1_2", "count": -3, "price": 0.01, "ptu": "B" }, "type": 2 }, "print": true }, "11": { "commandType": 22, "commandInput": { "item": { "name": "STORNO TOWAR_1_3", "count": -4, "price": 0.01, "ptu": "C" }, "type": 2 }, "print": true }, "12": { "commandType": 22, "commandInput": { "item": { "name": "STORNO TOWAR_1_4", "count": -5, "price": 0.01, "ptu": "D" }, "type": 2 }, "print": true }, "13": { "commandType": 22, "commandInput": { "item": { "name": "STORNO TOWAR_1_5", "count": -1, "price": 0.01, "ptu": "E" }, "type": 2 }, "print": true }, "14": { "commandType": 22, "commandInput": { "item": { "name": "STORNO TOWAR_1_6", "count": -1, "price": 0.01, "ptu": "F" }, "type": 2 }, "print": true }, "15": { "commandType": 22, "commandInput": { "item": { "name": "STORNO TOWAR_1_7", "count": -10, "price": 0.01, "ptu": "G" }, "type": 2 }, "print": true }, "16": { "commandType": 24, "commandInput": { "currency_converter": 2.54, "currency": "EUR", "is_from_registration_currency_conversion": false, "is_informative_conversion": true, "name": "paymentName", "payment_type": 1, "value": 0, "payment_without_terminal": true } }, "17": { "commandType": 26, "commandInput": { "canceled": false }, "print": true, "returnPDF": false, "returnQR": true } } }
 ```
+
+
+/////////////////////////////////////////////////////proba dodatkowego zadania 2//////////////////////////////////////////////////////
+```
+{ "commandType": 16 }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 2, "name": "TOWAR_1_1", "price": 0,01, "ptu": "A", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 3, "name": "TOWAR_1_2", "price": 0,01, "ptu": "B", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 4, "name": "TOWAR_1_3", "price": 0,01, "ptu": "C", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 5, "name": "TOWAR_1_4", "price": 0,01, "ptu": "D", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1, "name": "TOWAR_1_5", "price": 0,01, "ptu": "E", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1, "name": "TOWAR_1_6", "price": 0,01, "ptu": "F", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 10, "name": "TOWAR_1_7", "price": 0,01, "ptu": "G", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": true, "count": 1, "name": "TOWAR_1_1", "price": 0,01, "ptu": "A", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+
+```
+
+
+
 /////////////////////////////////////////////////AKTYWACJA STAWEK PTU///////////////////////////////////////////////////
 ```
 { "commandType": 32, "commandInput": { "settings": [ { "name": "ptu1", "value": "A", "rate": 23.00 }, { "name": "ptu2", "value": "B", "rate": 8.00 }, { "name": "ptu3", "value": "C", "rate": 5.00 }, { "name": "ptu4", "value": "D", "rate": 0.00 }, { "name": "ptu5", "value": "E", "rate": 12.00 }, { "name": "ptu6", "value": "F", "rate": 18.00 }, { "name": "ptu7", "value": "G", "rate": 22.00 } ] } }
