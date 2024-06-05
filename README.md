@@ -1,5 +1,5 @@
 ## Treść
-1. [Testy - przykladowe 25 paragonów](#testy)
+1. [Testy - przykladowe 25 paragonów](#Testy-przykladowe25paragonów)
 2. [Sprzedaż RFD nr 1](#RFDnr1)
    
 ## Testy - przykladowe 25 paragonów
