@@ -1,4 +1,8 @@
-# KW
+## Treść
+1. [Testy - przykladowe 25 paragonów](#testy)
+2. [Sprzedaż RFD nr 1](#RFDnr1)
+   
+## Testy - przykladowe 25 paragonów
 
 ```
 {"commandType":1,"commandInput":{"sales_system_name":"salesSystemNameTest","sales_system_version":"salesSystemVersionTest"}}
@@ -453,3 +457,5 @@ zwrotnych),
 ```
 { "commandInput": { "A": { "type": 0, "value": 23 }, "B": { "type": 0, "value": 8 }, "C": { "type": 0, "value": 5 }, "D": { "type": 0, "value": 2 }, "E": { "type": 0, "value": 3 }, "F": { "type": 0, "value": 4 }, "G": { "type": 0, "value": 6 } }, "commandType": 3 }
 ```
+## Sprzedaż RFD nr 1
+DSADASD
