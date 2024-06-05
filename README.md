@@ -431,7 +431,7 @@ zwrotnych),
 
 ///final
 ```
-{ "commandType": 24, "commandInput": { "currency_converter": 4.19, "currency": "EUR", "is_from_registration_currency_conversion": false, "is_informative_conversion": true, "name": "paymentName", "payment_type": 1, "value": 0, "payment_without_terminal": true } }
+{ "commandType": 24, "commandInput": { "name": "paymentName", "payment_type": 1, "value": 1.16, "payment_without_terminal": true } }
 ```
 
 ```
