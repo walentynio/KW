@@ -1016,26 +1016,66 @@ Paragon fiskalny nr8
 {'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_G2', 'price': 731.13, 'ptu': 'G', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}
 ```
 Paragon fiskalny nr9
-```{'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_A', 'price': 544.01, 'ptu': 'A', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}```
-```{'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_B', 'price': 297.26, 'ptu': 'B', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}```
-```{'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_C', 'price': 826.21, 'ptu': 'C', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}```    
-```{'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_D', 'price': 782.13, 'ptu': 'D', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}```    
-```{'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_E', 'price': 417.6, 'ptu': 'E', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}```     
-```{'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_F', 'price': 156.44, 'ptu': 'F', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}```    
-```{'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_G', 'price': 770.82, 'ptu': 'G', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}```    
-```{'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_A1', 'price': 592.98, 'ptu': 'A', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}```   
-```{'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_B1', 'price': 382.36, 'ptu': 'B', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}```   
-```{'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_C1', 'price': 791.14, 'ptu': 'C', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}```   
-```{'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_D1', 'price': 559.02, 'ptu': 'D', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}```   
-```{'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_E1', 'price': 857.4, 'ptu': 'E', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}```    
-```{'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_F1', 'price': 431.6, 'ptu': 'F', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}```    
-```{'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_G1', 'price': 451.0, 'ptu': 'G', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}```    
-```{'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_A2', 'price': 222.33, 'ptu': 'A', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}```   
-```{'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_B2', 'price': 173.54, 'ptu': 'B', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}```   
-```{'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_C2', 'price': 760.48, 'ptu': 'C', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}```   
-```{'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_D2', 'price': 646.43, 'ptu': 'D', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}```   
-```{'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_E2', 'price': 246.23, 'ptu': 'E', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}```   
-```{'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_G2', 'price': 217.66, 'ptu': 'G', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}``` 
+```
+{'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_A', 'price': 544.01, 'ptu': 'A', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}
+```
+```
+{'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_B', 'price': 297.26, 'ptu': 'B', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}
+```
+```
+{'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_C', 'price': 826.21, 'ptu': 'C', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}
+```    
+```
+{'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_D', 'price': 782.13, 'ptu': 'D', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}
+```    
+```
+{'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_E', 'price': 417.6, 'ptu': 'E', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}
+```     
+```
+{'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_F', 'price': 156.44, 'ptu': 'F', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}
+```    
+```
+{'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_G', 'price': 770.82, 'ptu': 'G', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}
+```    
+```
+{'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_A1', 'price': 592.98, 'ptu': 'A', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}
+```   
+```
+{'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_B1', 'price': 382.36, 'ptu': 'B', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}
+```   
+```
+{'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_C1', 'price': 791.14, 'ptu': 'C', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}
+```   
+```
+{'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_D1', 'price': 559.02, 'ptu': 'D', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}
+```   
+```
+{'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_E1', 'price': 857.4, 'ptu': 'E', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}
+```    
+```
+{'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_F1', 'price': 431.6, 'ptu': 'F', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}
+```    
+```
+{'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_G1', 'price': 451.0, 'ptu': 'G', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}
+```    
+```
+{'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_A2', 'price': 222.33, 'ptu': 'A', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}
+```   
+```
+{'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_B2', 'price': 173.54, 'ptu': 'B', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}
+```   
+```
+{'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_C2', 'price': 760.48, 'ptu': 'C', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}
+```   
+```
+{'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_D2', 'price': 646.43, 'ptu': 'D', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}
+```   
+```
+{'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_E2', 'price': 246.23, 'ptu': 'E', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}
+```   
+```
+{'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_G2', 'price': 217.66, 'ptu': 'G', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}
+``` 
 Paragon fiskalny nr10
 ```{'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_A', 'price': 81.9, 'ptu': 'A', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}```
 ```{'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_B', 'price': 480.47, 'ptu': 'B', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}```
