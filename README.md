@@ -49,6 +49,11 @@
 ```
 { "commandType": 26, "commandInput": { "canceled": false }, "print": true, "returnPDF": false, "returnQR": true }
 ```
+alternatywa 
+```
+{ "commandType": 30, "commandInput": { "1": { "commandType": 16 }, "2": { "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1, "name": "ProduktA", "price": 50, "ptu": "A", "unit": "szt" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }, "3": { "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1, "name": "ProduktB", "price": 60, "ptu": "B", "unit": "szt" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }, "4": { "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1, "name": "ProduktC", "price": 70, "ptu": "C", "unit": "szt" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }, "5": { "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1, "name": "ProduktD", "price": 80, "ptu": "D", "unit": "szt" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }, "6": { "commandType": 24, "commandInput": { "name": "paymentName", "payment_type": 1, "value": 260, "payment_without_terminal": true } }, "7": { "commandType": 26, "commandInput": { "canceled": false }, "print": true, "returnPDF": false, "returnQR": true } } }
+```
+
 //paragon dwupozycyjny ze storno pierwszej pozycji, (u mnie liczy nie poprawnie)
 
 ```
