@@ -12,7 +12,7 @@
 1//zaprogramować wszystkie stawki PTU(jezeli stawki PTU są ustawione to zmian nie będzie)
 
 ```
-{ "commandInput": { "A": { "type": 0, "value": 23 }, "B": { "type": 0, "value": 8 }, "C": { "type": 0, "value": 5 }, "D": { "type": 0, "value": 0 }, "E": { "type": 1, "value": 0 }, "F": { "type": 2, "value": 0 }, "G": { "type": 2, "value": 0 } }, "commandType": 3 }
+{ "commandInput": { "A": { "type": 0, "value": 23 }, "B": { "type": 0, "value": 8 }, "C": { "type": 0, "value": 3 }, "D": { "type": 1, "value": 0 }, "E": { "type": 0, "value": 0 }, "F": { "type": 0, "value": 1 }, "G": { "type": 0, "value": 2 } }, "commandType": 3 }
 ```
 
 2//paragon z towarami we wszystkich stawkach PTU,
@@ -534,6 +534,10 @@ zwrotnych),
 ## RFDnr2
 Paragon fiskalny nr1 
 ```
+{ "commandType": 16 }
+```
+
+```
 {'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_A', 'price': 0.01, 'ptu': 'A', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}
 ```
 ```
@@ -593,6 +597,8 @@ Paragon fiskalny nr1
 ```
 {'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_G2', 'price': 0.01, 'ptu': 'G', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}
 ```
+
+
 Paragon fiskalny nr2 
 ```
 {'commandType': 22, 'commandInput': {'item': {'advanceRemain': 0, 'canceled': False, 'count': 1, 'name': 'RFD_2_TOWAR_1_A', 'price': 999.99, 'ptu': 'A', 'unit': ''}, 'type': 1}, 'print': True, 'returnModel': False, 'returnPDF': False}
