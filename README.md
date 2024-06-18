@@ -453,9 +453,6 @@ Paragon Anulowany
 =============================================================================================================================================================================================================================================================================================================
 I-2_12 oraz I-2_13 zawierają tylko opakowania, należy sprzedać także towar (w przypadku anulowania operacji na opakowaniach zwrotnych, bez innej sprzedaży, kasa nie powinna zarejestrować dokumentu niefiskalnego).
 =============================================================================================================================================================================================================================================================================================================
-```
-{ "commandType": 30, "commandInput": { "1": {"commandType": 16}, "2": { "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1, "name": "Towar-B", "price": 10, "ptu": "B", "unit": "szt" }, "type": 1 }, "commandType": 22, "print": true, "returnModel": false, "returnPDF": false }, "3": { "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1, "name": "Towar-A", "price": 10, "ptu": "A", "unit": "szt" }, "type": 2 }, "commandType": 22, "print": true, "returnModel": false, "returnPDF": false }, "4": { "commandInput": { "name": "paymentName", "payment_type": 1, "value": 21, "payment_without_terminal": true }, "commandType": 24 }, "5": { "commandInput": {"canceled": false}, "commandType": 26, "print": true, "returnPDF": false, "returnQR": true } } }
-```
 Lepiej wprowadzi komenda po komendzie 
 
 ```
@@ -490,6 +487,25 @@ Paragon Anulowany
 
 ```
 { "commandType": 30, "commandInput": { "1": {"commandType": 16}, "2": { "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": -1, "name": "Towar-A", "price": 1, "ptu": "A", "unit": "szt" }, "type": 2 }, "commandType": 22, "print": true, "returnModel": false, "returnPDF": false }, "3": { "commandInput": {"name": "paymentName", "payment_type": 1, "value": 9, "payment_without_terminal": true }, "commandType": 24 }, "4": { "commandInput": {"canceled": true}, "commandType": 26, "print": true, "returnPDF": false, "returnQR": true } } }
+```
+=============================================================================================================================================================================================================================================================================================================
+I-2_12 oraz I-2_13 zawierają tylko opakowania, należy sprzedać także towar (w przypadku anulowania operacji na opakowaniach zwrotnych, bez innej sprzedaży, kasa nie powinna zarejestrować dokumentu niefiskalnego).
+=============================================================================================================================================================================================================================================================================================================
+Lepiej wprowadzi komenda po komendzie 
+```
+{ "commandType": 16 }
+```
+```
+{ "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1, "name": "Towar-B", "price": 10, "ptu": "B", "unit": "szt" }, "type": 1 }, "commandType": 22, "print": true, "returnModel": false, "returnPDF": false }
+```
+```
+{ "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": -1, "name": "Towar-A", "price": 1, "ptu": "A", "unit": "szt" }, "type": 2 }, "commandType": 22, "print": true, "returnModel": false, "returnPDF": false }
+```
+```
+{ "commandInput": { "name": "paymentName", "payment_type": 1, "value": 9, "payment_without_terminal": true }, "commandType": 24 }
+```
+```
+{ "commandInput": { "canceled": false }, "commandType": 26, "print": true, "returnPDF": false, "returnQR": true }
 ```
 =============================================================================================================================================================================================================================================================================================================
 ================================================================================
