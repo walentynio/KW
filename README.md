@@ -502,7 +502,7 @@ Lepiej wprowadzi komenda po komendzie
 { "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": -1, "name": "Towar-A", "price": 1, "ptu": "A", "unit": "szt" }, "type": 2 }, "commandType": 22, "print": true, "returnModel": false, "returnPDF": false }
 ```
 ```
-{ "commandInput": { "name": "paymentName", "payment_type": 1, "value": 9, "payment_without_terminal": true }, "commandType": 24 }
+{ "commandInput": { "name": "paymentName", "payment_type": 1, "value": 11, "payment_without_terminal": true }, "commandType": 24 }
 ```
 ```
 { "commandInput": { "canceled": false }, "commandType": 26, "print": true, "returnPDF": false, "returnQR": true }
