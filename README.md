@@ -412,6 +412,29 @@ Wystawić 2x PA: z podsumowaniem i bez podsumowania (jezeli to mozliwe).
 ```
 =============================================================================================================================================================================================================================================================================================================
 ================================================================================
+Skrypt realizujący przez API sprzedaż na kwotę 159 PLN i płatność 2 kartami:
+pierwszą na kwotę 159 PLN, z czego potwierdzona zostanie kwota 155 PLN,
+drugą na kwotę 4 PLN
+
+```
+{ "commandType": 16 }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1, "name": "Towar-A", "price": 159, "ptu": "A", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+```
+{ "commandType": 24, "commandInput": { "name": "Płatność Kartą 1", "payment_type": 1, "value": 155, "payment_without_terminal": true } }
+```
+```
+{ "commandType": 24, "commandInput": { "name": "Płatność Kartą 2", "payment_type": 1, "value": 4, "payment_without_terminal": true } }
+```
+```
+{ "commandType": 26, "commandInput": { "canceled": false }, "print": true, "returnPDF": false, "returnQR": true }
+```
+
+
+=============================================================================================================================================================================================================================================================================================================
+================================================================================
 I-2_12_PA	PA/PR z wydaniem opakowan zwrotnych
 I-2_12_PR
 ================================================================================
