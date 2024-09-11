@@ -425,10 +425,10 @@ drugą na kwotę 4 PLN
 { "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1, "name": "Towar-A", "price": 159, "ptu": "A", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
 ```
 ```
-{ "commandType": 24, "commandInput": { "name": "Płatność Kartą 1", "payment_type": 2, "value": 159, "payment_without_terminal": true } }
+{ "commandType": 24, "commandInput": { "name": "Płatność Kartą 1", "payment_type": 2, "value": 159, "payment_without_terminal": false } }
 ```
 ```
-{ "commandType": 24, "commandInput": { "name": "Płatność Kartą 2", "payment_type": 2, "value": 4, "payment_without_terminal": true } }
+{ "commandType": 24, "commandInput": { "name": "Płatność Kartą 2", "payment_type": 2, "value": 4, "payment_without_terminal": false } }
 ```
 ```
 { "commandType": 26, "commandInput": { "canceled": false }, "print": true, "returnPDF": false, "returnQR": true }
