@@ -842,7 +842,7 @@ PARAGON FISKALNY Nr 5
 ```
 
 ```
-{ "commandType": 24, "commandInput": { "payment_type": 1, "value": 1.12 } }
+{ "commandType": 24, "commandInput": { "payment_type": 1, "value": 1.03 } }
 ```
 
 ```
