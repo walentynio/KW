@@ -979,14 +979,42 @@ PARAGON FISKALNY Nr 5
 { "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 64.643, "name": "RFD_3_TOWAR_1_D2", "price": 915.05, "ptu": "D", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
 ```
 ```
-{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 80.496, "name": "RFD_3_TOWAR_1_E2", "price": 698.83, "ptu": "E", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 30.321, "name": "RFD_3_TOWAR_1_E2", "price": 783.71, "ptu": "E", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
 ```
 ```
-{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 99.762, "name": "RFD_3_TOWAR_1_G2", "price": 488.33, "ptu": "G", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 58.818, "name": "RFD_3_TOWAR_1_G2", "price": 403.25, "ptu": "G", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
 ```
 ```
-{ "commandType": 24, "commandInput": { "payment_type": 1, "value": 402625.27 } }
+{ "commandType": 24, "commandInput": { "payment_type": 1, "value": 651335.56 } }
 ```
 ```
 { "commandType": 26, "commandInput": { "canceled": false }, "print": true, "returnPDF": false, "returnQR": true }
 ```
+
+
+====================================================ZALICZKA RFD3 PARAGON 31=================================
+
+```
+{ "commandType": 16 }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 1000.0, "canceled": false, "count": 5.0, "name": "RFD_3_TOWAR_1_G", "price": 358.12, "ptu": "A", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 522.0, "canceled": false, "count": 5.0, "name": "RFD_3_TOWAR_1_G", "price": 200.0, "ptu": "A", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+
+```
+{ "commandType": 24, "commandInput": { "payment_type": 1, "value": 1269.60 } }
+```
+
+```
+{ "commandType": 26, "commandInput": { "canceled": false }, "print": true, "returnPDF": false, "returnQR": true }
+```
+
+
+
+
+
+
