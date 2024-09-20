@@ -907,3 +907,86 @@ PARAGON FISKALNY Nr 5
 ```
 { "commandType": 26, "commandInput": { "canceled": false }, "print": true, "returnPDF": false, "returnQR": true }
 ```
+
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++RFD3_4+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+```
+{ "commandType": 16 }
+```
+
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 61.961, "name": "RFD_3_TOWAR_1_A", "price": 227.61, "ptu": "A", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 61.939, "name": "RFD_3_TOWAR_1_B", "price": 451.85, "ptu": "B", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 33.566, "name": "RFD_3_TOWAR_1_C", "price": 684.34, "ptu": "C", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 14.957, "name": "RFD_3_TOWAR_1_D", "price": 207.85, "ptu": "D", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 81.393, "name": "RFD_3_TOWAR_1_E", "price": 528.21, "ptu": "E", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 41.91, "name": "RFD_3_TOWAR_1_F", "price": 641.15, "ptu": "F", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+
++++++++++
+
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 65.956, "name": "RFD_3_TOWAR_1_G", "price": 470.01, "ptu": "G", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 0.305, "name": "RFD_3_TOWAR_1_A1", "price": 619.61, "ptu": "A", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 99.555, "name": "RFD_3_TOWAR_1_B1", "price": 405.96, "ptu": "B", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 40.408, "name": "RFD_3_TOWAR_1_C1", "price": 782.75, "ptu": "C", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 14.719, "name": "RFD_3_TOWAR_1_D1", "price": 984.05, "ptu": "D", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 61.053, "name": "RFD_3_TOWAR_1_E1", "price": 77.13, "ptu": "E", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 85.165, "name": "RFD_3_TOWAR_1_F1", "price": 434.14, "ptu": "F", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 56.371, "name": "RFD_3_TOWAR_1_G1", "price": 38.3, "ptu": "G", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+++++++++++
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 39.122, "name": "RFD_3_TOWAR_1_A2", "price": 308.55, "ptu": "A", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 72.83, "name": "RFD_3_TOWAR_1_B2", "price": 784.84, "ptu": "B", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 28.896, "name": "RFD_3_TOWAR_1_C2", "price": 134.18, "ptu": "C", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 64.643, "name": "RFD_3_TOWAR_1_D2", "price": 915.05, "ptu": "D", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 80.496, "name": "RFD_3_TOWAR_1_E2", "price": 698.83, "ptu": "E", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 27.998, "name": "RFD_3_TOWAR_1_G2", "price": 554.26, "ptu": "G", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+```
+{ "commandType": 24, "commandInput": { "payment_type": 1, "value": 503623.14 } }
+```
+```
+{ "commandType": 26, "commandInput": { "canceled": false }, "print": true, "returnPDF": false, "returnQR": true }
+```
