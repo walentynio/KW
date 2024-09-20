@@ -998,15 +998,15 @@ PARAGON FISKALNY Nr 5
 { "commandType": 16 }
 ```
 ```
-{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 1000.0, "canceled": false, "count": 5.0, "name": "RFD_3_TOWAR_1_A", "price": 358.12, "ptu": "A", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 300.0, "canceled": false, "count": 4.0, "name": "RFD_3_TOWAR_1_E", "price": 235.15, "ptu": "E", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
 ```
 
 ```
-{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 522.0, "canceled": false, "count": 5.0, "name": "RFD_3_TOWAR_1_B", "price": 200.0, "ptu": "B", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 500.01, "canceled": false, "count": 2.22, "name": "RFD_3_TOWAR_1_G", "price": 247.0, "ptu": "G", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
 ```
 
 ```
-{ "commandType": 24, "commandInput": { "payment_type": 1, "value": 1269.60 } }
+{ "commandType": 24, "commandInput": { "payment_type": 1, "value": 688.93 } }
 ```
 
 ```
