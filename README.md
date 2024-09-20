@@ -998,11 +998,11 @@ PARAGON FISKALNY Nr 5
 { "commandType": 16 }
 ```
 ```
-{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 1000.0, "canceled": false, "count": 5.0, "name": "RFD_3_TOWAR_1_G", "price": 358.12, "ptu": "A", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 1000.0, "canceled": false, "count": 5.0, "name": "RFD_3_TOWAR_1_A", "price": 358.12, "ptu": "A", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
 ```
 
 ```
-{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 522.0, "canceled": false, "count": 5.0, "name": "RFD_3_TOWAR_1_G", "price": 200.0, "ptu": "A", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 522.0, "canceled": false, "count": 5.0, "name": "RFD_3_TOWAR_1_B", "price": 200.0, "ptu": "B", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
 ```
 
 ```
