@@ -985,7 +985,7 @@ PARAGON FISKALNY Nr 5
 { "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 63.570, "name": "TOWAR_1_G2_RFD4", "price": 574.64, "ptu": "G", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
 ```
 ```
-{ "commandType": 24, "commandInput": { "payment_type": 1, "is_informative_conversion": true, "value": 0.02 } }
+{ "commandType": 24, "commandInput": { "payment_type": 1, "is_from_registration_currency_conversion": false, "is_informative_conversion": true, "value": 0.02 } }
 ```
 ```
 { "commandType": 26, "commandInput": { "canceled": false }, "print": true, "returnPDF": false, "returnQR": true }
