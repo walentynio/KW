@@ -911,9 +911,18 @@ PARAGON FISKALNY Nr 5
 { "commandType": 24, "commandInput": { "payment_type": 3, "value": 603038.23, "currency_converter": 0.2235, "currency": "PLN", "is_from_registration_currency_conversion": true, "is_informative_conversion": true, "name": "paymentNameEUR", "payment_without_terminal": true } }
 ```
 
-```
-{ "commandType": 24, "commandInput": { "payment_type": 1, "value": 579347.16, "name": "paymentNameEUR", "payment_without_terminal": true } }
 
+
+
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 86.376, "name": "RFD_7_TOWAR_1_G2", "price": 51.55, "ptu": "G", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+```
+{ "commandType": 24, "commandInput": { "payment_type": 1, "value": 367244.14, "name": "paymentNameEUR", "payment_without_terminal": true } }
+```
+```
+{ "commandType": 26, "commandInput": { "canceled": false }, "print": true, "returnPDF": false, "returnQR": true }
+```
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++RFD3_4+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ```
@@ -1039,7 +1048,19 @@ PARAGON FISKALNY Nr 5
 { "commandType": 26, "commandInput": { "canceled": false }, "print": true, "returnPDF": false, "returnQR": true }
 ```
 
++++++++ANULOWANE++++++++++++++++++++++++++++++++
 
+```
+{ "commandType": 16 }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1.0, "name": "Telewizor", "price": 93.31, "ptu": "A", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+```
+{ "commandType": 24, "commandInput": { "payment_type": 1, "value": 93.31, "name": "paymentNameEUR", "payment_without_terminal": true } }
+```
 
-
+```
+{ "commandType": 26, "commandInput": { "canceled": true }, "print": true, "returnPDF": false, "returnQR": true }
+```
 
