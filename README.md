@@ -806,105 +806,113 @@ PARAGON FISKALNY Nr 5
 ```
 
 ```
-{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1.0, "name": "TOWAR_1_1_RFD6", "price": 0.01, "ptu": "A", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1.0, "name": "TOWAR_1_1_RFD7", "price": 0.01, "ptu": "A", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
 ```
 
 ```
-{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1.0, "name": "TOWAR_1_2_RFD6", "price": 0.01, "ptu": "B", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1.0, "name": "TOWAR_1_2_RFD7", "price": 0.01, "ptu": "B", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
 ```
 
 ```
-{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1.0, "name": "TOWAR_1_3_RFD6", "price": 0.01, "ptu": "C", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1.0, "name": "TOWAR_1_3_RFD7", "price": 0.01, "ptu": "C", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
 ```
 
 ```
-{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1.0, "name": "TOWAR_1_4_RFD6", "price": 0.01, "ptu": "D", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1.0, "name": "TOWAR_1_4_RFD7", "price": 0.01, "ptu": "D", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
 ```
 
 ```
-{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1.0, "name": "TOWAR_1_5_RFD6", "price": 0.01, "ptu": "E", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1.0, "name": "TOWAR_1_5_RFD7", "price": 0.01, "ptu": "E", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
 ```
 
 ```
-{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1.0, "name": "TOWAR_1_6_RFD6", "price": 0.01, "ptu": "F", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1.0, "name": "TOWAR_1_6_RFD7", "price": 0.01, "ptu": "F", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
 ```
 
 ```
-{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1.0, "name": "TOWAR_1_7_RFD6", "price": 0.01, "ptu": "G", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1.0, "name": "TOWAR_1_7_RFD7", "price": 0.01, "ptu": "G", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
 ```
 
 
 +++++++++
 
 ```
-{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1.0, "name": "TOWAR_1_8_RFD6", "price": 0.01, "ptu": "A", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1.0, "name": "TOWAR_1_8_RFD7", "price": 0.01, "ptu": "A", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
 ```
 
 ```
-{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1.0, "name": "TOWAR_1_9_RFD6", "price": 0.01, "ptu": "B", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1.0, "name": "TOWAR_1_9_RFD7", "price": 0.01, "ptu": "B", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
 ```
 
 ```
-{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1.0, "name": "TOWAR_1_10_RFD6", "price": 0.01, "ptu": "C", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1.0, "name": "TOWAR_1_10_RFD7", "price": 0.01, "ptu": "C", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
 ```
 
 ```
-{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1.0, "name": "TOWAR_1_11_RFD6", "price": 0.01, "ptu": "D", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1.0, "name": "TOWAR_1_11_RFD7", "price": 0.01, "ptu": "D", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
 ```
 
 ```
-{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1.0, "name": "TOWAR_1_12_RFD6", "price": 0.01, "ptu": "E", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1.0, "name": "TOWAR_1_12_RFD7", "price": 0.01, "ptu": "E", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
 ```
 
 ```
-{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1.0, "name": "TOWAR_1_13_RFD6", "price": 0.01, "ptu": "F", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1.0, "name": "TOWAR_1_13_RFD7", "price": 0.01, "ptu": "F", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
 ```
 
 ```
-{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1.0, "name": "TOWAR_1_14_RFD6", "price": 0.01, "ptu": "G", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1.0, "name": "TOWAR_1_14_RFD7", "price": 0.01, "ptu": "G", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
 ```
 
 
 +++++++++++
 +++++++++++++
 ```
-{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1.0, "name": "TOWAR_1_15_RFD6", "price": 0.01, "ptu": "A", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1.0, "name": "TOWAR_1_15_RFD7", "price": 0.01, "ptu": "A", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
 ```
 
 ```
-{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1.0, "name": "TOWAR_1_16_RFD6", "price": 0.01, "ptu": "B", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1.0, "name": "TOWAR_1_16_RFD7", "price": 0.01, "ptu": "B", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
 ```
 
 ```
-{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1.0, "name": "TOWAR_1_17_RFD6", "price": 0.01, "ptu": "C", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1.0, "name": "TOWAR_1_17_RFD7", "price": 0.01, "ptu": "C", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
 ```
 
 ```
-{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1.0, "name": "TOWAR_1_18_RFD6", "price": 0.01, "ptu": "D", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1.0, "name": "TOWAR_1_18_RFD7", "price": 0.01, "ptu": "D", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
 ```
 
 ```
-{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1.0, "name": "TOWAR_1_19_RFD6", "price": 0.01, "ptu": "E", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
-```
-=====================================================================
-```
-{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 34.097, "name": "TOWAR_1_20_RFD6", "price": 894.30, "ptu": "G", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1.0, "name": "TOWAR_1_19_RFD7", "price": 0.01, "ptu": "E", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
 ```
 
-++++++++++++++++++
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1.0, "name": "TOWAR_1_20_RFD7", "price": 0.01, "ptu": "G", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
++++
 
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": -1.0, "name": "Butelka", "price": 1.34, "ptu": "A", "unit": "szt." }, "type": 2 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1.0, "name": "Sloik", "price": 1.25, "ptu": "A", "unit": "szt." }, "type": 2 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+
+```
+{ "commandType": 24, "commandInput": { "payment_type": 1, "value": 0.11, "name": "paymentNameEUR", "payment_without_terminal": true } }
+```
+
+```
+{ "commandType": 26, "commandInput": { "canceled": false }, "print": true, "returnPDF": false, "returnQR": true }
+```
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++EUR+++++++++++++++++++++++
 ```
 { "commandType": 24, "commandInput": { "payment_type": 3, "value": 603038.23, "currency_converter": 0.2235, "currency": "PLN", "is_from_registration_currency_conversion": true, "is_informative_conversion": true, "name": "paymentNameEUR", "payment_without_terminal": true } }
 ```
 
 ```
 { "commandType": 24, "commandInput": { "payment_type": 1, "value": 579347.16, "name": "paymentNameEUR", "payment_without_terminal": true } }
-```
-
-```
-{ "commandType": 26, "commandInput": { "canceled": false }, "print": true, "returnPDF": false, "returnQR": true }
-```
-
 
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++RFD3_4+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
