@@ -1072,19 +1072,19 @@ TEST1 PA 1
   {"commandType": 16}
 ```
 ```
-{ "commandType": 22, "commandInput": { "item": { "name": "TOWAR_1_1_A", "price": 1.1111, "count": 1.00, "ptu": "A", "discount": { "name": "NARZUT", "type": 1, "unit": 0, "value": -3.5 } }, "type": 1 } }
+{ "commandType": 22, "commandInput": { "item": { "name": "TOWAR_1_1_A", "price": 1.1111, "count": 1.00, "ptu": "A", "discount": { "name": "NARZUT/RABAT", "type": 0, "unit": 0, "value": -3.5 } }, "type": 1 } }
 ```
 ```
 { "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1, "name": "TOWAR_1_2_B", "price": 1111.11, "ptu": "B", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
 ```
 ```
-{ "commandType": 22, "commandInput": { "item": { "name": "TOWAR_1_3_C", "price": 1.1111, "count": 1.00, "ptu": "C", "discount": { "name": "NARZUT", "type": 1, "unit": 0, "value": 3 } }, "type": 1 } }
+{ "commandType": 22, "commandInput": { "item": { "name": "TOWAR_1_3_C", "price": 1.1111, "count": 1.00, "ptu": "C", "discount": { "name": "NARZUT/RABAT", "type": 1, "unit": 0, "value": 3 } }, "type": 1 } }
 ```
 ```
-{ "commandType": 22, "commandInput": { "item": { "name": "TOWAR_1_4_F", "price": 1.1111, "count": 1.00, "ptu": "F", "discount": { "name": "NARZUT", "type": 1, "unit": 0, "value": -2 } }, "type": 1 } }
+{ "commandType": 22, "commandInput": { "item": { "name": "TOWAR_1_4_F", "price": 1.1111, "count": 1.00, "ptu": "F", "discount": { "name": "NARZUT/RABAT", "type": 0, "unit": 0, "value": -2 } }, "type": 1 } }
 ```
 ```
-{ "commandType": 22, "commandInput": { "item": { "name": "TOWAR_1_5_G", "price": 1.1111, "count": 1.00, "ptu": "G", "discount": { "name": "NARZUT", "type": 1, "unit": 0, "value": 3 } }, "type": 1 } }
+{ "commandType": 22, "commandInput": { "item": { "name": "TOWAR_1_5_G", "price": 1.1111, "count": 1.00, "ptu": "G", "discount": { "name": "NARZUT/RABAT", "type": 1, "unit": 0, "value": 3 } }, "type": 1 } }
 ```
 ```
 { "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1, "name": "TOWAR_1_6_A", "price": 1111.11, "ptu": "A", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
@@ -1103,3 +1103,81 @@ TEST1 PA 1
 ```
 
 
+TEST2 PA 2 
+
+
+```
+  {"commandType": 16}
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "name": "TOWAR_1_1_E", "price": 1.1111, "count": 1.00, "ptu": "E", "discount": { "name": "NARZUT/RABAT", "type": 1, "unit": 1, "value": 337.0 } }, "type": 1 } }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1, "name": "TOWAR_1_2_F", "price": 1111.11, "ptu": "F", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "name": "TOWAR_1_3_D", "price": 1.1111, "count": 1.00, "ptu": "D", "discount": { "name": "NARZUT/RABAT", "type": 1, "unit": 1, "value": 3.3333 } }, "type": 1 } }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "name": "TOWAR_1_4_G", "price": 1.1111, "count": 1.00, "ptu": "G", "discount": { "name": "NARZUT/RABAT", "type": 1, "unit": 1, "value": -337.0 } }, "type": 1 } }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "name": "TOWAR_1_5_C", "price": 1.1111, "count": 1.00, "ptu": "C", "discount": { "name": "NARZUT/RABAT", "type": 1, "unit": 1, "value": 3 } }, "type": 1 } }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1, "name": "TOWAR_1_6_A", "price": 1111.11, "ptu": "A", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": -1.0, "name": "Butelka", "price": 1.34, "ptu": "A", "unit": "szt." }, "type": 2 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1.0, "name": "Sloik", "price": 1.25, "ptu": "A", "unit": "szt." }, "type": 2 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+```
+{ "commandType": 24, "commandInput": { "name": "paymentName", "payment_type": 1, "value": 6672.90, "payment_without_terminal": true } }
+```
+```
+{ "commandType": 26, "commandInput": { "canceled": false }, "print": true, "returnPDF": false, "returnQR": true }
+```
+
+TEST PA 3 RABAT DO PODSUMY 
+
+```
+  {"commandType": 16}
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "name": "TOWAR_1_1_E", "price": 1.1111, "count": 1.00, "ptu": "E", "discount": { "name": "NARZUT/RABAT", "type": 1, "unit": 1, "value": 337.0 } }, "type": 1 } }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1, "name": "TOWAR_1_2_F", "price": 1111.11, "ptu": "F", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "name": "TOWAR_1_3_D", "price": 1.1111, "count": 1.00, "ptu": "D", "discount": { "name": "NARZUT/RABAT", "type": 1, "unit": 1, "value": 3.3333 } }, "type": 1 } }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "name": "TOWAR_1_4_G", "price": 1.1111, "count": 1.00, "ptu": "G", "discount": { "name": "NARZUT/RABAT", "type": 1, "unit": 1, "value": -337.0 } }, "type": 1 } }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "name": "TOWAR_1_5_C", "price": 1.1111, "count": 1.00, "ptu": "C", "discount": { "name": "NARZUT/RABAT", "type": 1, "unit": 1, "value": 3 } }, "type": 1 } }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1, "name": "TOWAR_1_6_A", "price": 1111.11, "ptu": "A", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": -1.0, "name": "Butelka", "price": 1.34, "ptu": "A", "unit": "szt." }, "type": 2 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1.0, "name": "Sloik", "price": 1.25, "ptu": "A", "unit": "szt." }, "type": 2 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+```
+{ "commandType": 24, "commandInput": { "name": "paymentName", "payment_type": 1, "value": 6672.90, "payment_without_terminal": true } }
+```
+```
+{ "commandType": 26, "commandInput": { "canceled": false }, "print": true, "returnPDF": false, "returnQR": true }
+```
+
+
+NARZUT DO PODSUMY 
+```
+{ "commandType": 25, "commandInput": { "name": "Narzut do podsumy", "canceled": true, "discount_type": 1, "discount_unit": 1, "value": -4 } }
+```
