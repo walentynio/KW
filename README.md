@@ -1064,3 +1064,42 @@ PARAGON FISKALNY Nr 5
 { "commandType": 26, "commandInput": { "canceled": true }, "print": true, "returnPDF": false, "returnQR": true }
 ```
 
+==============================================================================================================================rabaty i narzuty++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+TEST1 PA 1 
+
+```
+  {"commandType": 16}
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "name": "TOWAR_1_1_A", "price": 1.1111, "count": 1.00, "ptu": "A", "discount": { "name": "NARZUT", "type": 1, "unit": 0, "value": -3.5 } }, "type": 1 } }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1, "name": "TOWAR_1_2_B", "price": 1111.11, "ptu": "B", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "name": "TOWAR_1_3_C", "price": 1.1111, "count": 1.00, "ptu": "C", "discount": { "name": "NARZUT", "type": 1, "unit": 0, "value": 3 } }, "type": 1 } }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "name": "TOWAR_1_4_F", "price": 1.1111, "count": 1.00, "ptu": "F", "discount": { "name": "NARZUT", "type": 1, "unit": 0, "value": -2 } }, "type": 1 } }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "name": "TOWAR_1_5_G", "price": 1.1111, "count": 1.00, "ptu": "G", "discount": { "name": "NARZUT", "type": 1, "unit": 0, "value": 3 } }, "type": 1 } }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1, "name": "TOWAR_1_6_A", "price": 1111.11, "ptu": "A", "unit": "" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": -1.0, "name": "Butelka", "price": 1.34, "ptu": "A", "unit": "szt." }, "type": 2 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1.0, "name": "Sloik", "price": 1.25, "ptu": "A", "unit": "szt." }, "type": 2 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+```
+{ "commandType": 24, "commandInput": { "name": "paymentName", "payment_type": 1, "value": 6672.12, "payment_without_terminal": true } }
+```
+```
+{ "commandType": 26, "commandInput": { "canceled": false }, "print": true, "returnPDF": false, "returnQR": true }
+```
+
+
