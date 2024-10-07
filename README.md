@@ -1288,13 +1288,13 @@ NARZUT DO PODSUMY
 { "commandType": 16 }
 ```
 ```
-{ "commandInput": { "item": { "advanceRemain": 0.0, "canceled": false, "count": 1.0, "name": "Towar-A", "price": 1.0, "ptu": "A", "unit": "szt." }, "type": 1 }, "commandType": 22 }
+{ "commandInput": { "item": { "advanceRemain": 0.0, "canceled": false, "count": 1.0, "name": "Towar-A", "price": 10.0, "ptu": "A", "unit": "szt." }, "type": 1 }, "commandType": 22 }
 ```
 ```
-{ "commandInput": { "item": { "advanceRemain": 0.0, "canceled": false, "count": 1.0, "name": "Opakowanie zwrotne", "price": 10.0, "ptu": "A", "unit": "szt." }, "type": 1 }, "commandType": 22 }
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": -1.0, "name": "Butelka", "price": 10.0, "ptu": "A", "unit": "szt." }, "type": 2 }, "print": true, "returnModel": false, "returnPDF": false }
 ```
 ```
-{ "commandInput": { "payment_type": 1, "value": 0.01}, "commandType": 24 }
+{ "commandInput": { "payment_type": 2, "value": 0.00}, "commandType": 24 }
 ```
 ```
 { "commandInput": { "canceled": false }, "commandType": 26, "print": true, "returnPDF": false }
@@ -1321,9 +1321,6 @@ NARZUT DO PODSUMY
 { "commandType": 16 }
 ```
 ```
-{ "commandInput": { "tax_number": "1122334455" }, "commandType": 18 }
-```
-```
 { "commandInput": { "item": { "advanceRemain": 0.0, "canceled": false, "count": 1.0, "name": "Towar-A", "price": 100.0, "ptu": "A", "unit": "szt." }, "type": 1 }, "commandType": 22 }
 ```
 ```
@@ -1335,28 +1332,25 @@ NARZUT DO PODSUMY
 ```
 { "commandInput": { "canceled": false }, "commandType": 26, "print": true, "returnPDF": false }
 ```
-++++++++++++++++++++++++++PLATNOŚĆ DWOMA WALUTAMI reszta w EURO
+++++++++++++++++++++++++++PLATNOŚĆ DWOMA WALUTAMI reszta w EURO dziła ale trzeba dodać walute USD i ewedenc walute EUR
 ```
 { "commandType": 16 }
 ```
 ```
-{ "commandInput": { "tax_number": "1122334455" }, "commandType": 18 }
-```
-```
 { "commandInput": { "item": { "advanceRemain": 0.0, "canceled": false, "count": 1.0, "name": "Towar-A", "price": 100.0, "ptu": "A", "unit": "szt." }, "type": 1 }, "commandType": 22 }
 ```
 ```
 { "commandType": 24, "commandInput": { "payment_type": 3, "value": 15.0, "currency_converter": 0.2235, "currency": "EUR", "is_from_registration_currency_conversion": true, "is_informative_conversion": false, "name": "paymentNameEUR", "payment_without_terminal": true } }
 ```
 ```
-{ "commandType": 24, "commandInput": { "payment_type": 3, "value": 15.0, "currency_converter": 0.20, "currency": "USD", "is_from_registration_currency_conversion": true, "is_informative_conversion": false, "name": "paymentNameUSD", "payment_without_terminal": true } }
+{ "commandType": 24, "commandInput": { "payment_type": 3, "value": 80.0, "currency_converter": 4.50, "currency": "PLN", "is_from_registration_currency_conversion": true, "is_informative_conversion": false, "name": "paymentNamePLN", "payment_without_terminal": true } }
 ```
 ```
 { "commandInput": { "canceled": false }, "commandType": 26, "print": true, "returnPDF": false }
 ```
 
 
-++++++++++++++++++++++++++PLATNOSC KARTĄ
+++++++++++++++++++++++++++PLATNOSC KARTĄ dziala
 
 ```
 { "commandType": 16 }
@@ -1371,7 +1365,7 @@ NARZUT DO PODSUMY
 { "commandInput": { "canceled": false }, "commandType": 26, "print": true, "returnPDF": false }
 ```
 
-++++++++++++++++++++++++++CZESC GOTOWKA CZESC KARTA
+++++++++++++++++++++++++++CZESC GOTOWKA CZESC KARTA dzialaaaaaaaaaa
 ```
 { "commandType": 16 }
 ```
