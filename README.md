@@ -580,10 +580,10 @@ I-2_14 - paragon "zerowy" powinien być wystawiony, bo zawiera pozycje sprzedaż
 { "commandInput": { "item": { "advanceRemain": 0.0, "canceled": true, "count": 1.0, "name": "Towar-B", "price": 0.01, "ptu": "B", "unit": "szt." }, "type": 1 }, "commandType": 22 }
 ```
 ```
-{ "commandInput": { "item": { "advanceRemain": 0.0, "canceled": false, "count": 1.0, "name": "Opakowanie zwrotne", "price": 10.0, "ptu": "A", "unit": "szt." }, "type": 1 }, "commandType": 22 }
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": -1.0, "name": "Butelka", "price": 10.0, "ptu": "A", "unit": "szt." }, "type": 2 }, "print": true, "returnModel": false, "returnPDF": false }
 ```
 ```
-{ "commandInput": { "item": { "advanceRemain": 0.0, "canceled": true, "count": 1.0, "name": "Opakowanie zwrotne", "price": 10.0, "ptu": "A", "unit": "szt." }, "type": 1 }, "commandType": 22 }
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1.0, "name": "Sloik", "price": 10.0, "ptu": "A", "unit": "szt." }, "type": 2 }, "print": true, "returnModel": false, "returnPDF": false }
 ```
 ```
 { "commandInput": { "payment_type": 1, "value": 0}, "commandType": 24 }
